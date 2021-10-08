@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: Mulish, sans-serif;
+}
+p{
+    text-align: center;
+    width: 700px;
+    margin: 40px 600px;
+}
+.menu .text {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    
+   
+    align-items: center;
+}
+.menu .text li {
+text-align: center;
+}
+
+.menu .text li a{
+       display: flex;
+font-size: 18px;
+    margin: 20px auto;
+text-decoration: none;
+color: rgb(31,31,31);
+}
